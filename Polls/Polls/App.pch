@@ -1,0 +1,21 @@
+//
+//  App.pch
+//  Polls
+//
+//  Created by Anirban on 5/15/17.
+//  Copyright © 2017 Anirban. All rights reserved.
+//
+
+#ifndef App_pch
+#define App_pch
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+extern NSString *FBID;
+extern NSString *Email;
+extern NSString *UserID;
+extern NSString *Name;
+extern NSString *PicLink;
+#define ThemeColor []
+#endif /* App_pch */
